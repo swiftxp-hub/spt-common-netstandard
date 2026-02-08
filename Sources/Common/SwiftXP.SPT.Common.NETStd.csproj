@@ -34,5 +34,11 @@
   <ItemGroup>
     <Reference Include="$(MSBuildThisFileDirectory)/../../../spt4-shared-dlls/Newtonsoft.Json.dll" />
   </ItemGroup>
+
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>SwiftXP.SPT.Common.NETStd.Tests</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
   
 </Project>
