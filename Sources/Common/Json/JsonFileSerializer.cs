@@ -3,7 +3,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
-namespace SwiftXP.SPT.Common.Json;
+namespace SwiftXP.SPT.Common.NETStd.Json;
 
 public class JsonFileSerializer : IJsonFileSerializer
 {
